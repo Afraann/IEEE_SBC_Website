@@ -64,7 +64,7 @@ const ExeComPage = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {societyChapters.map((chapter) => (
-                        <div key={chapter.id} className="bg-white border border-gray-200 rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow duration-300 flex flex-col items-center">
+                        <div key={chapter.id} className="bg-white border border-gray-200 rounded-xl shadow-md p-6 text-center hover:shadow-2xl hover:scale-105 hover:border-[#00629b] border-transparent duration-500 ease-in-out flex flex-col items-center">
                             
                             <div className="mb-4 min-h-[4.5rem]">
                                 <p className="text-xl font-bold text-ieee-blue">{chapter.acronym}</p>
