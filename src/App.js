@@ -14,6 +14,7 @@ import RegistrationClosedPage from './pages/RegistrationClosedPage';
 import LoginPage from './pages/LoginPage';
 import AdminDashboardPage from './pages/AdminDashboardPage';
 import ProtectedRoute from './components/ProtectedRoute';
+import IEEEDayPage from  './pages/IEEEDayPage';
 
 // This Layout component conditionally renders the Navbar and Footer
 const Layout = ({ children }) => {
@@ -44,7 +45,7 @@ function App() {
         <Layout>
           <Routes>
             {/* Public Routes */}
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<IEEEDayPage />} />
             <Route path="/events" element={<EventsPage />} />
             <Route path="/achievements" element={<AchievementsPage />} />
             <Route path="/execom" element={<ExeComPage />} />

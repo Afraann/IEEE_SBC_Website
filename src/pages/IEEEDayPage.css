@@ -1,0 +1,71 @@
+.ieee-day {
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #0072c6, #00b0ff);
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+  border-radius: 16px;
+  margin: 2rem auto;
+  width: 80%;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.celebrate-btn {
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #0072c6;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.celebrate-btn:hover {
+  background: #e3f2fd;
+  box-shadow: 0 0 20px #fff;
+}
+
+.footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Floating background animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.banner h1 {
+  animation: float 3s ease-in-out infinite;
+}
+
