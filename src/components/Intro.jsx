@@ -6,7 +6,7 @@ const Intro = () => {
         
         {/* Left Side: Logos */}
         <div className="w-full md:w-1/3 flex justify-center items-center gap-8">
-          <img src="/images/pace.jpg" alt="College Logo" className="max-h-32" />
+          <img src="/images/pace.png" alt="Colleges Logo" className="max-h-32" />
           <img src="/images/pace-sb.png" alt="IEEE SB Logo" className="max-h-32" />
         </div>
         
